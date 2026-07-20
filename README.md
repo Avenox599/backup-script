@@ -12,12 +12,20 @@ The requirement of this projet is:
 ## Usage
 You can use this program with two method.
 ### First method
-The structure of first method is: ```bash sudo ./backup.sh <directory>```
+The structure of first method is: 
+```bash 
+sudo ./backup.sh <directory>
+```
 #### Example
 For this example, I save the directory Documents (It locate in /home/emmanuel)
-```bash sudo ./backup.sh /home/emmanuel/Documents```
+```bash
+sudo ./backup.sh /home/emmanuel/Documents
+```
 ### Second method
-The structure of second method is: ```bash sudo ./backup.sh```
+The structure of second method is: 
+```bash 
+sudo ./backup.sh
+```
 With second method The script will prompt you to enter the absolute path of the directory you want to back up.
 
 ## Features
