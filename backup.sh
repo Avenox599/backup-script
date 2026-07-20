@@ -57,7 +57,7 @@ ARCHIVE_PATH="$BACKUP_DIR/$ARCHIVE_NAME"
 
 SOURCE_DIR="$1"
 
-while [ -z "$1" ] || [ ! -d "$SOURCE_DIR" ]; do
+while [ -z "$SOURCE_DIR" ] || [ ! -d "$SOURCE_DIR" ]; do
     read -p "Enter the absolute path of the directory to back up: " SOURCE_DIR
 
     if [ -d "$SOURCE_DIR" ]; then
